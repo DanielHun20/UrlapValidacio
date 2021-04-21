@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 main, header,nav, aside, article, footer{
-    
+    margin: 6px;
     border:1px solid black;
 }
 
@@ -16,6 +16,7 @@ main{
         ;
     
 }
+
 
 
 
@@ -42,17 +43,20 @@ header{
 
 nav {
     background-color: greenyellow;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 article {
     padding: 10px;
+    background-color: #F5C99B;
+    
 }
 
 section {
     margin: 15px;
     padding: 4px;
-    background-color: bisque;
+    background-color: #F8F4D8;
     
 }
 
@@ -64,5 +68,22 @@ aside {
 }
 
 footer {
-    background-color: #FFDBAC;
+    background-color: #FFD9C2;
+    
+}
+
+#kuld{
+    width: 300px;
+    float: right;
+    margin:  5px;
+}
+
+#torol{
+    width: 120px;
+    float: left;
+    margin-top: 40px;
+}
+
+fieldset {
+    
 }
